@@ -3,7 +3,7 @@ Coding assessment Questions for BuildHER Internship program
 
  ## 1. EASY question -
  
-  ** Problem Statement - Given an integer array nums where the elements are sorted in ascending order, convert it to a height-balanced binary search tree. **
+  **Problem Statement - Given an integer array nums where the elements are sorted in ascending order, convert it to a height-balanced binary search tree.**
   
   Approach -:
      Find the middle element of the array.
@@ -15,7 +15,7 @@ Coding assessment Questions for BuildHER Internship program
 
  ## 2. MEDIUM question -
  
-   ** Problem Statement - Given a binary search tree (BST), find the lowest common ancestor (LCA) node of two given nodes in the BST. **
+   **Problem Statement - Given a binary search tree (BST), find the lowest common ancestor (LCA) node of two given nodes in the BST.**
    
    Approach -:
       Start from the root node of the BST.
@@ -24,7 +24,7 @@ Coding assessment Questions for BuildHER Internship program
       If neither of the above cases is true, then the root node is the LCA.
    
    
-   ** Problem Statement - Given an m x n binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area. **
+   **Problem Statement - Given an m x n binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area.**
    
    Approach -:
    The DP approach involves creating a new matrix dp with the same dimensions as the input matrix, where dp[i][j] represents the length of the side of the largest square    that can be formed with the bottom right corner at position (i, j) in the input matrix. dp[i][j] is calculated by looking at the values of dp[i-1][j], dp[i][j-1], and    dp[i-1][j-1]
@@ -32,7 +32,7 @@ Coding assessment Questions for BuildHER Internship program
 
  ## 3. HARD question -
    
-   ** Problem Statement - Return the max sliding window given an array. **
+   **Problem Statement - Return the max sliding window given an array.**
    
    Approach -:
    Approach to solve this problem is to use a deque (double-ended queue).
